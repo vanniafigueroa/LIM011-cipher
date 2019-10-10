@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    div {
+        padding: 4em;
+    }
+    
+    div {
+        background-color: #ececec;
+    }
+    
+    div {
+        margin: 5em 4em 3em 2em;
+        width: 550px
+        height: 400px
+    }
+    
+    div{
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(gato.png);
+    }
+    
