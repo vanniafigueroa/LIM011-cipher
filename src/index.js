@@ -1,23 +1,16 @@
-alert("Alguna vez pensaste hablar y lograr entender como la pelicula Matrix?")
+//alert("Alguna vez pensaste hablar y lograr entender como la pelicula Matrix?")
 
-let ascii
-let operacion
-let total1
-let total2
-let total3
-let totales1
-let totales2
-let totales3
-let minuscula
-let sumatoria1=""
-let sumatoria2= ""
-let sumatoria3=""
-let suma1=""
-let suma2=""
-let suma3=""
-let result= ""
+const offset1= document.getElementById("offset1")
+let string1 = document.getElementById("ingresar-cifrado")
+const offset2= document.getElementById("offset2")
+let string2 =document.getElementById("ingresar-descifrado")
 
+document.getElementById("cifrar").addEventListener("click", ()=>{
+    let resultadoCifrar = cipher.encode(offset1.value, string1.value);
+    document.getElementById("resultado").innerHTML= resultadoCifrar;
+})
+document.getElementById("descifrar").addEventListener("click", ()=>{
+    let resultadoDescifrar = cipher.decode(offset2.value, string2.value);    
 
-document.getElementById("cifrar").addEventListener("click", cifrar)
-document.getElementById("descifrar").addEventListener("click", decode)
-
+document.getElementById("final").innerHTML= resultadoDescifrar;
+})

@@ -1,26 +1,28 @@
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    } 
+    p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
     }
-    
+
     div {
         padding: 4em;
-    }
-    
-    div {
         background-color: #ececec;
+        margin: 6em 16em 6em 16em;
+        height: 350px;
+        width: 550px;
+        
+            
     }
-    
-    div {
-        margin: 5em 4em 3em 2em;
-        width: 550px
-        height: 400px
-    }
-    
-    div{
-        box-sizing: border-box;
-    }
-    
+#root{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     body {
-        background-image: url(gato.png);
+        background-image: url(ftch.png);
     }
     
