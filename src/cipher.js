@@ -28,6 +28,6 @@ window.cipher= {
                 resultFinal += letterCipher;
             }  
         }
-       return suma1
+       return resultFinal
     }
 }
