@@ -11,7 +11,9 @@ window.cipher= {
                 positionLetterCipher=((positionAsciiOfLetter - 65) +parseInt(offset))%26+65
                 letterCipher= String.fromCharCode(positionLetterCipher)
                 resultFinal += letterCipher; 
-            }    
+            } else {
+                resultFinal += string[i]
+            }  
         }
        return resultFinal
     },
